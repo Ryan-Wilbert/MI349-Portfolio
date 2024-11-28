@@ -26,6 +26,8 @@ h2 {
 
 h3 {
     font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -43,6 +45,11 @@ p {
 
 img {
     border-radius: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
 }
 
 #heading a {
@@ -93,8 +100,8 @@ img {
 .me_2 {
     height: auto;
     width: auto;
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .bio_text_1 {
@@ -137,7 +144,34 @@ hr {
 .harris {
     width: auto;
     height: auto;
-    max-height: 400px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 400px;
 }
 
+.harris_article {
+    display: flex;
+    gap: 10px;
+}
+
+.impact_article {
+    padding: 15px;
+    border-radius: 2%;
+}
+
+.impact_article:hover{
+    background-color: #f1f1f1;
+}
+
+.album_image {
+    height: 300px;
+    width: 300px;
+}
+
+.flex_article {
+    display: flex !important;
+    padding-top: 0;
+}
+
+.write_music {
+    justify-content: center;
+}
