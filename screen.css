@@ -75,7 +75,7 @@ a {
 .navbar a {
     text-decoration: none;
     color: #191919;
-    padding: 15px;
+    padding: 10px;
 }
 
 .navbar a:hover {
@@ -173,5 +173,29 @@ hr {
 }
 
 .write_music {
-    justify-content: center;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.write_music:hover {
+    text-decoration: underline;
+}
+
+.impact_image {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.creativewritingimage  {
+    width: 100px;
+    height: 100px;
+}
+
+.fishybusinessimage {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
 }
