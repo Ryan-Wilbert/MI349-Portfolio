@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Ryan Wilbert</h1>
-    <nav>
+    <h1 id="heading"><a href="index.html">Ryan Wilbert</a></h1>
+    <nav class="navbar">
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="newsandmusic.html">News and Music</a></li>
@@ -20,18 +20,27 @@
     <section class="bio">
       <article class="bio_1">
         <h2>Welcome.</h2>
-          <p>Hi there! I'm Ryan Wilbert, a student at Michigan State University studying Information Science. I am a passionate artist, filmmaker, and researcher interested in how we can best use technology to handle spreading information in society. My hobbies include drawing, reading, and creating music with my two guitars. I'm a hard working student and an exuberant leader, always willing to take on anything that comes my way.</p>
+          <div class="bio_1_content">
+            <p class="bio_text_1">Hi there! I'm Ryan Wilbert, a student at Michigan State University studying Information Science. I am a passionate artist, filmmaker, and researcher interested in how we can best use technology to handle spreading information in society. My hobbies include drawing, reading, and creating music with my two guitars. I'm a hard working student and an exuberant leader, always willing to take on anything that comes my way.</p>
+            <img src="content/me_2.jpg" class="me_2">
+          </div>
       </article>
       <article class="bio_2">
-          <h2>I make stuff.</h2>
-            <p>On this site, you’ll find a catalog of everything I’ve made. I'm always looking for new ways to challenge myself with a plethora of creative projects, ranging from screenplays to editorial pieces. Navigate between the pages above to find all of my work.</p>
+        <h2>I make stuff.</h2>  
+          <div class="bio_2_content">
             <img src="content/me_1.jpg" class="me_1">
-            <img src="content/me_2.jpg" class="me_2">
+            <p class="bio_text_2">On this site, you’ll find a catalog of everything I’ve made. I'm always looking for new ways to challenge myself with a plethora of creative projects, ranging from screenplays to editorial pieces. Navigate between the pages above to find all of my work.</p>
+          </div>
       </article>
+      <hr>
     </section>
     <footer>
-      <h2>Contact me.</h2>
-      <p><a href="mailto:wilbert2@msu.edu">wilbert2@msu.edu</a></p>
+      <div>
+        <p class="contact">Contact me.</p>
+      </div>
+        <div class="email">
+          <p><a href="mailto:wilbert2@msu.edu">wilbert2@msu.edu</a></p>
+        </div>
     </footer>
     <script src="index.js"></script>
   </body>
