@@ -189,13 +189,43 @@ hr {
 }
 
 .creativewritingimage  {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
 }
 
 .fishybusinessimage {
     width: auto;
     height: auto;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.poetry {
+    display: flex;
+    width: calc(100%/2);
+    gap: 100px;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.fictional_writing {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.writing_piece:hover {
+    background-color: #f1f1f1;
+}
+
+.writing_piece {
+    border-radius: 2%;
+}
+
+.notes_download:hover {
+    text-decoration: underline;
 }
