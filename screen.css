@@ -247,3 +247,8 @@ hr {
     border-radius: 10%;
     width: fit-content;
 }
+
+.school_paper {
+    padding: 0;
+    margin: 10px;
+}
