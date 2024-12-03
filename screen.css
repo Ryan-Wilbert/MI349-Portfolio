@@ -262,10 +262,21 @@ hr {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #121212;
-        color: #ffffff;
+        color: #f1f1f1;
+    }
+    h1 {
+        color: #f1f1f1;
+    }
+    
+    a {
+        color: #f1f1f1;
     }
 
-    a {
-        color: #bb86fc;
+    .writing_piece:hover {
+        background-color: #585858;
+    }
+
+    .impact_article:hover {
+        background-color: #585858;
     }
 }
