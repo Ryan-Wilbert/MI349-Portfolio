@@ -252,3 +252,20 @@ hr {
     padding: 0;
     margin: 10px;
 }
+
+@media screen (max-width: 599px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+
+    a {
+        color: #bb86fc;
+    }
+}
