@@ -253,30 +253,14 @@ hr {
     margin: 10px;
 }
 
-@media screen (max-width: 599px) {
+@media (max-width: 599px) {
     body {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121212;
-        color: #f1f1f1;
-    }
-    h1 {
-        color: #f1f1f1;
-    }
-    
-    a {
-        color: #f1f1f1;
-    }
-
-    .writing_piece:hover {
-        background-color: #585858;
-    }
-
-    .impact_article:hover {
-        background-color: #585858;
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; 
     }
 }
