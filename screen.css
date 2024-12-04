@@ -233,7 +233,7 @@ hr {
 
 .fictional_writing {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -244,9 +244,9 @@ hr {
 }
 
 .writing_piece {
-    border-radius: 2%;
     max-width: 500px;
     max-height: 500px;
+    border-radius: 2%;
     padding: 10px;
 }
 
