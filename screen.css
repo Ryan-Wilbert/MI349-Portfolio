@@ -16,6 +16,8 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 h2 {
@@ -85,6 +87,8 @@ hr {
     list-style-type: none;
     text-align: center;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {
@@ -207,21 +211,32 @@ hr {
     border-radius: 7%;
 }
 
-
 .poetry {
     display: flex;
-    width: calc(100%/2);
     gap: 100px;
     text-align: center;
-    margin-left: 200px;
     margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.poetry_piece {
+    max-width: 500px;
+    max-height: 500px;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.poetry_piece:hover {
+    background-color: #f1f1f1;
 }
 
 .fictional_writing {
     display: flex;
     gap: 100px;
     text-align: center;
-    border-radius: 2%;
+    justify-content: center;
+    align-items: center;
 }
 
 .writing_piece:hover {
@@ -230,6 +245,9 @@ hr {
 
 .writing_piece {
     border-radius: 2%;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 10px;
 }
 
 .notes_download:hover {
@@ -276,7 +294,17 @@ hr {
         background-color: #585858;
     }
 
-    .impact_article:hover {
+    .poetry_piece:hover {
         background-color: #585858;
+    }
+
+    .impact_article:hover {
+        background-color: #585858;        
+    }
+
+    .download_academic:hover {
+        background-color: #585858;
+    
+    
     }
 }
